@@ -15,7 +15,7 @@
 <br/>`ejercicio3(config)#enable secret password`
 
 - Banner motd (message of the day)
-<br/>`ejercicio3(config)#banner motd x Hoola, buenos das campen! x`
+<br/>`ejercicio3(config)#banner motd x Hoola, buenos días campeón! x`
 
 - Un usuario admin con permisos de administración
 <br/>`ejercicio3(config)#username admin privilege 15`
