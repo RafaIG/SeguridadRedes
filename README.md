@@ -4,7 +4,7 @@
 
 ### Configuración básica de R1:
 - Nombre
-` R1(config)#hostname ejercicio3`
+<br/>`Router(config)#hostname ejercicio3`
 
 - Contraseña de consola
 <br/>`ejercicio3(config)#line console 0`
