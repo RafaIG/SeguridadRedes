@@ -7,40 +7,38 @@
 ` R1(config)#hostname ejercicio3`
 
 - Contraseña de consola
-`ejercicio3(config)#line console 0`
-
-`ejercicio3(config-line)#password password`
-
-`ejercicio3(config-line)#login`
+<br/>`ejercicio3(config)#line console 0`
+<br/>`ejercicio3(config-line)#password password`
+<br/>`ejercicio3(config-line)#login`
 
 - Contraseña de enable
-`ejercicio3(config)#enable secret password`
+<br/>`ejercicio3(config)#enable secret password`
 
 - Banner motd (message of the day)
-`ejercicio3(config)#banner motd x Hoola, buenos das campen! x`
+<br/>`ejercicio3(config)#banner motd x Hoola, buenos das campen! x`
 
 - Un usuario admin con permisos de administración
-`ejercicio3(config)#username admin privilege 15`
+<br/>`ejercicio3(config)#username admin privilege 15`
 
 - Un usuario user con permisos básicos
-`ejercicio3(config)#username user privilege 1`
-`ejercicio3(config)#line console 0`
-`ejercicio3(config-line)# login local`
+<br/>`ejercicio3(config)#username user privilege 1`
+<br/>`ejercicio3(config)#line console 0`
+<br/>`ejercicio3(config-line)# login local`
 
 - Acceso por SSH
-`Router(config)#hostname practica3`
-`practica3(config)#ip domain-name practica3dominio`
-`practica3(config)# crypto key generate rsa general-keys` Seleccionar al menos 768
-`practica3(config)#ip ssh version 2`
-`practica3(config)# line vty 0 15`
-`practica3(config-line)# transport input ssh`
-`practica3(config-line)# login local`
-`practica3(config-line)# exit`
-`practica3(config)#username admin password password`
+<br/>`Router(config)#hostname practica3`
+<br/>`practica3(config)#ip domain-name practica3dominio`
+<br/>`practica3(config)# crypto key generate rsa general-keys` Seleccionar al menos 768
+<br/>`practica3(config)#ip ssh version 2`
+<br/>`practica3(config)# line vty 0 15`
+<br/>`practica3(config-line)# transport input ssh`
+<br/>`practica3(config-line)# login local`
+<br/>`practica3(config-line)# exit`
+<br/>`practica3(config)#username admin password password`
 
 - Configuración de seguridad frente a intentos de acceso por fuerza bruta (delay, block-for, reinentos de SSH)
-`practica3(config)#ip ssh authentication-reties 3`
-`practica3(config)# ip ssh time-out 30`
+<br/>`practica3(config)#ip ssh authentication-reties 3`
+<br/>`practica3(config)# ip ssh time-out 30`
 
 ### Configuración de red en los switches:
 - Configuración de red de los switches sw1, sw2, sw3 y sw5, , con una IP libre del rango en el que se encuentran sus equipos.
