@@ -8,7 +8,9 @@
 
 - Contraseña de consola
 `ejercicio3(config)#line console 0`
+
 `ejercicio3(config-line)#password password`
+
 `ejercicio3(config-line)#login`
 
 - Contraseña de enable
