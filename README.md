@@ -42,7 +42,9 @@
 
 ### Configuración de red en los switches:
 - Configuración de red de los switches sw1, sw2, sw3 y sw5, , con una IP libre del rango en el que se encuentran sus equipos.
+
 - Configuración de red del switch sw4 con una IP de la vlan 3.
+  *De momento no se puede implementar*
 
 ### NTP de todos los routers frente al servidor Serv_SYSLOG con contraseña miercoles
 
