@@ -1,0 +1,19 @@
+## Configurar ACL estándar
+
+- R1(config)#access-list 1 remark Permit only admin host
+- R1(config)#access-list 1 permit host 192.168.2.1
+- R1(config)#line vty 0 4
+- R1(config-line)#access-class 1 in
+
+
+## Configurar ACL en VTY
+
+
+
+## Configurar ACL extendida
+
+
+
+## Mitigar ataques
+
+
